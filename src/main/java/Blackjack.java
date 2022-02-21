@@ -6,7 +6,19 @@ public class Blackjack {
     private static final String AUTOMATICALLY_WIN_STRING = "W";
 
     public int parseCard(String card) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
+        return switch (card) {
+            case "ace" -> 1;
+            case "two" -> 2;
+            case "three" -> 3;
+            case "four" -> 4;
+            case "five" -> 5;
+            case "six" -> 6;
+            case "seven" -> 7;
+            case "eight" -> 8;
+            case "nine" -> 9;
+            case "ten", "jack", "queen", "king" -> 10;
+            default -> 0;
+        };
     }
 
     public boolean isBlackjack(String card1, String card2) {
