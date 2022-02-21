@@ -1,5 +1,10 @@
 public class Blackjack {
 
+    private static final String STAND_STRING = "S";
+    private static final String HIT_STRING = "H";
+    private static final String SPLIT_STRING = "P";
+    private static final String AUTOMATICALLY_WIN_STRING = "W";
+
     public int parseCard(String card) {
         throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
     }
