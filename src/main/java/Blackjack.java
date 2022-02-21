@@ -7,7 +7,7 @@ public class Blackjack {
 
     public int parseCard(String card) {
         return switch (card) {
-            case "ace" -> 1;
+            case "ace" -> 11;
             case "two" -> 2;
             case "three" -> 3;
             case "four" -> 4;
@@ -22,11 +22,17 @@ public class Blackjack {
     }
 
     public boolean isBlackjack(String card1, String card2) {
-        return parseCard(card1) + parseCard(card2) >= 21;
+        return parseCard(card1) + parseCard(card2) == 21;
     }
 
     public String largeHand(boolean isBlackjack, int dealerScore) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.largeHand method");
+        if (!isBlackjack) {
+            return SPLIT_STRING;
+        } else if (dealerScore < 10) {
+            return AUTOMATICALLY_WIN_STRING;
+        } else {
+            return STAND_STRING;
+        }
     }
 
     public String smallHand(int handScore, int dealerScore) {
