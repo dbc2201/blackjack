@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BlackjackTest" tests="55" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:21:03" hostname="DBC" time="0.062">
+<testsuite name="BlackjackTest" tests="55" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:22:34" hostname="DBC" time="0.073">
   <properties/>
-  <testcase name="blackjackWithKingAceSecond" classname="BlackjackTest" time="0.048"/>
+  <testcase name="blackjackWithKingAceSecond" classname="BlackjackTest" time="0.057"/>
   <testcase name="firstTurnWithAceAceAndDealerAce" classname="BlackjackTest" time="0.003"/>
   <testcase name="firstTurnWithTwoNineAndDealerQueen" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithKingSevenAndDealerAce" classname="BlackjackTest" time="0.0"/>
@@ -9,14 +9,14 @@
   <testcase name="firstTurnWithTwoTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithKingTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithFourTenAndDealerQueen" classname="BlackjackTest" time="0.0"/>
-  <testcase name="firstTurnWithFourTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFourTenAndDealerSeven" classname="BlackjackTest" time="0.001"/>
   <testcase name="correctParsesEight" classname="BlackjackTest" time="0.002"/>
   <testcase name="correctParsesQueen" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesSeven" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesThree" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithJackJackAndDealerAce" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithFiveTenAndDealerKing" classname="BlackjackTest" time="0.0"/>
-  <testcase name="firstTurnWithEightTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithEightTenAndDealerAce" classname="BlackjackTest" time="0.001"/>
   <testcase name="blackjackWithJackAceSecond" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithSixTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithSixTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
@@ -43,17 +43,17 @@
   <testcase name="firstTurnWithKingAceAndDealerNine" classname="BlackjackTest" time="0.0"/>
   <testcase name="blackjackWithQueenAceSecond" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesFive" classname="BlackjackTest" time="0.0"/>
-  <testcase name="correctParsesFour" classname="BlackjackTest" time="0.001"/>
+  <testcase name="correctParsesFour" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesJack" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesKing" classname="BlackjackTest" time="0.0"/>
   <testcase name="correctParsesNine" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithSixTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
-  <testcase name="firstTurnWithTenAceAndDealerFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTenAceAndDealerFive" classname="BlackjackTest" time="0.001"/>
   <testcase name="firstTurnWithFiveTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithTwoThreeAndDealerQueen" classname="BlackjackTest" time="0.0"/>
   <testcase name="noBlackjackWithEightAndFive" classname="BlackjackTest" time="0.0"/>
   <testcase name="firstTurnWithThreeTenAndDealerQueen" classname="BlackjackTest" time="0.0"/>
-  <testcase name="firstTurnWithThreeTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithThreeTenAndDealerSeven" classname="BlackjackTest" time="0.001"/>
   <testcase name="noBlackjackWithFive" classname="BlackjackTest" time="0.0"/>
   <testcase name="noBlackjackWithNine" classname="BlackjackTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
